@@ -7,10 +7,10 @@ taskBtn.addEventListener('click',addToTask)
 
 function addToTask(){
     let taskValue = input.value
-    let list = document.createElement('li')
+    let li = document.createElement('li')
     list.innerText = taskValue
     console.log(taskValue)
-    olTodoContainer.append(list)
+    olTodoContainer.append(li)
     input.value = "";
 
 
